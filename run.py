@@ -6,4 +6,4 @@ port = "5000"
 app = create_app()
 
 if __name__ == '__main__':
-    app.run(debug=False, host=host, port=port)
+    app.run(debug=True, host=host, port=port)
